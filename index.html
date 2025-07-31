@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiChocoCandy - Confeitaria Artesanal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Poppins:wght@300;400;600&family=DM+Serif+Display&family=Allura&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">
+                <a href="#hero">
+                    <span class="logo-text">LiChocoCandy</span>
+                </a>
+            </h1>
+            <nav class="nav-menu">
+                <button class="hamburger" aria-label="Abrir Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="#categories" onclick="loadCategories();">Categorias</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content hidden-left">
+                <div class="hero-logo-container">
+                    <img src="https://i.imgur.com/i423Xqe.png" alt="LiChocoCandy Logo Grande">
+                </div>
+                <p class="hero-slogan">Doces que encantam, feitos com amor.</p>
+                <a href="#categories" class="btn btn-primary" onclick="loadCategories();">Ver Nossos Produtos</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="categories" class="categories-section hidden">
+        <div class="container">
+            <h2 class="section-title">Nossas Categorias</h2>
+            <div id="category-grid" class="category-grid">
+                </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section hidden">
+        <div class="container">
+            <h2 class="section-title">Sobre a LiChocoCandy</h2>
+            <div class="about-content">
+                <p>Na LiChocoCandy, cada doce carrega mais do que sabor: carrega afeto, cuidado e história. Nascemos do sonho de transformar momentos simples em lembranças inesquecíveis, através da doçura feita com as mãos e o coração.</p>
+                <p>Nossa missão é oferecer sobremesas artesanais de alta qualidade, feitas com ingredientes selecionados e muito carinho — desde o primeiro brigadeiro enrolado à mão até o último detalhe do acabamento de cada bolo.</p>
+                <p>Valorizamos o processo artesanal porque acreditamos que o tempo e a dedicação fazem toda a diferença. Aqui, nada é produzido em larga escala: cada receita é única, feita sob encomenda e com atenção aos mínimos detalhes.</p>
+                <p>Seja para celebrar, presentear ou simplesmente adoçar seu dia, estamos aqui para entregar mais do que doces. Entregamos afeto em forma de sabor desde 2015.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products-section hidden">
+        <div class="container">
+            <h2 id="products-category-title" class="section-title"></h2>
+            <div id="product-list" class="product-list">
+                </div>
+            <button class="btn btn-secondary back-button" onclick="loadCategories(); document.getElementById('categories').scrollIntoView({ behavior: 'smooth' });">Voltar às Categorias</button>
+        </div>
+    </section>
+
+    <section id="product-detail-screen" class="product-detail-section hidden">
+        <div class="container">
+            <div id="product-detail" class="product-detail-card">
+                </div>
+            <button class="btn btn-secondary back-button" onclick="showProductsScreenFromDetail(); document.getElementById('products').scrollIntoView({ behavior: 'smooth' });">Voltar aos Produtos</button>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section hidden">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p>Ficou com água na boca? Faça seu pedido ou tire suas dúvidas! Estamos prontos para te atender.</p>
+            <div class="contact-info">
+                <p><i class="fab fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/5511995291744" target="_blank">(11) 99529-1744</a></p>
+                <p><i class="fab fa-instagram"></i> Instagram: <a href="https://www.instagram.com/lichococandy" target="_blank">@lichococandy</a></p>
+                <p><i class="fas fa-shopping-bag"></i> iFood: <a href="https://www.ifood.com.br/delivery/maua-sp/lichococandy-vila-bocaina/f9128d1f-4bf6-4d8d-9833-3f2c26b71725" target="_blank">LiChocoCandy</a></p>
+                <p class="contact-message">Estamos ansiosos para adoçar o seu dia!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text footer-brand-name">LiChocoCandy</span>
+                </div>
+                <div class="social-links">
+                    <a href="https://wa.me/5511995291744" target="_blank" aria-label="WhatsApp LiChocoCandy"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/lichococandy" target="_blank" aria-label="Instagram LiChocoCandy"><i class="fab fa-instagram"></i></a>
+                </div>
+                <p>&copy; 2025 LiChocoCandy. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
