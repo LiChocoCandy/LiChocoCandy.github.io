@@ -35,16 +35,16 @@ const menuData = {
         },
         {
             name: "Bombom de Uva no Copo",
-            shortDescription: "Ninho, uvas verdes frescas e ganache de chocolate meio amarga.",
-            longDescription: "Brigadeiro gourmet de leite Ninho, generosa camada de uvas verdes selecionadas e finalizado com uma ganache de chocolate nobre meio amargo. Um contraste delicioso entre a doçura do brigadeiro, a acidez da fruta e o toque intenso do chocolate. Sua sobremesa é montada no momento do pedido, para que as frutas cheguem frescas e intactas. Conservar refrigerado. Recomendamos o consumo em até 24 horas. Frutas frescas podem soltar líquido e alterar a textura da sobremesa.",
+            shortDescription: "Brigadeiro branco, uvas verdes frescas e ganache de chocolate meio amarga.",
+            longDescription: "Brigadeiro gourmet de chocolate branco nobre, generosa camada de uvas verdes selecionadas e finalizado com uma ganache de chocolate nobre meio amargo. Um contraste delicioso entre a doçura do brigadeiro, a acidez da fruta e o toque intenso do chocolate. Sua sobremesa é montada no momento do pedido, para que as frutas cheguem frescas e intactas. Conservar refrigerado. Recomendamos o consumo em até 24 horas. Frutas frescas podem soltar líquido e alterar a textura da sobremesa.",
             price: "22,90",
             image: "https://i.imgur.com/kaB5S4j.jpeg",
             hashtags: ["#surpresadeuva", "#frutasechocolate", "#docenocopo", "#lichococandy", "#ifood"]
         },
         {
             name: "Bombom de Morango no Copo",
-            shortDescription: "Brigadeiro de Ninho, morangos frescos e ganache meio amarga.",
-            longDescription: "Brigadeiro gourmet de leite Ninho, generosa camada de morangos frescos e finalizado com uma ganache de chocolate nobre meio amarga. Uma sobremesa irresistível para quem ama a união perfeita entre fruta e chocolate. Montamos esse copo artesanalmente, com frutas frescas e ingredientes de qualidade, sempre no momento do pedido. Conservar refrigerado. Recomendamos o consumo em até 24 horas. Morangos frescos tendem a soltar líquido com o tempo, alterando a textura da sobremesa.",
+            shortDescription: "Brigadeiro branco, morangos frescos e ganache meio amarga.",
+            longDescription: "Brigadeiro gourmet de chocolate branco nobre, generosa camada de morangos frescos e finalizado com uma ganache de chocolate nobre meio amarga. Uma sobremesa irresistível para quem ama a união perfeita entre fruta e chocolate. Montamos esse copo artesanalmente, com frutas frescas e ingredientes de qualidade, sempre no momento do pedido. Conservar refrigerado. Recomendamos o consumo em até 24 horas. Morangos frescos tendem a soltar líquido com o tempo, alterando a textura da sobremesa.",
             price: "23,90",
             image: "https://i.imgur.com/yoZLxwI.jpeg",
             hashtags: ["#copodemorango", "#frutasechocolate", "#lichococandy", "#docenocopo", "#ifood"]
@@ -119,8 +119,8 @@ const menuData = {
         },
         {
             name: "Bombom de Uva na Travessa",
-            shortDescription: "Brigadeiro de leite Ninho com uvas verdes frescas e ganache meio amarga.",
-            longDescription: "Brigadeiro gourmet de leite Ninho, uvas verdes selecionadas e ganache de chocolate meio amargo. Um contraste delicioso entre a doçura do brigadeiro, a acidez da fruta e a intensidade do chocolate. Montado no momento do pedido para garantir frutas frescas e intactas. Serve até 5 pessoas. Conservar refrigerado. Validade: até 24 horas. Frutas frescas podem soltar líquido e alterar a textura da sobremesa.",
+            shortDescription: "Brigadeiro de chocolate branco nobre com uvas verdes frescas e ganache meio amarga.",
+            longDescription: "Brigadeiro gourmet de chocolate branco nobre, uvas verdes selecionadas e ganache de chocolate meio amargo. Um contraste delicioso entre a doçura do brigadeiro, a acidez da fruta e a intensidade do chocolate. Montado no momento do pedido para garantir frutas frescas e intactas. Serve até 5 pessoas. Conservar refrigerado. Validade: até 24 horas. Frutas frescas podem soltar líquido e alterar a textura da sobremesa.",
             price: "102,50",
             image: "https://i.imgur.com/ojn1e5C.jpeg",
             hashtags: ["#brigadeirodeninho", "#travessa", "#docesgourmet", "#lichococandy", "#ifood"]
@@ -234,14 +234,6 @@ longDescription: "Bolo de chocolate úmido e macio, recheado e coberto com briga
             price: "7,00",
             image: "https://brf.file.force.com/servlet/servlet.ImageServer?id=015U600000027LZ&oid=00D410000012TJa&lastMod=1703778994000",
             hashtags: ["#cocacolazero", "#zeroacucar", "#refrigerante"]
-        },
-        {
-            name: "H2O Limão 500ml",
-            shortDescription: "Bebida leve de limão.",
-            longDescription: "H2O sabor Limão em garrafa de 500ml, uma opção leve e refrescante.",
-            price: "6,50",
-            image: "https://i.imgur.com/BY9RJEA.jpeg",
-            hashtags: ["#h2o", "#limao", "#refrescante", "#bebida"]
         },
         {
             name: "Água Mineral Sem Gás Crystal 500ml",
@@ -395,4 +387,5 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('hero').style.display = 'block';
 
     loadCategories();
+
 });
