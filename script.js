@@ -22,8 +22,8 @@ const menuData = {
             shortDescription: "Bolo de especiarias, doce de leite cremoso e ganache meio amarga.",
             longDescription: "Bolo de especiarias fofinho, com notas marcantes de canela, cravo e mel, recheado com doce de leite cremoso caseiro e finalizado com ganache de chocolate nobre meio amargo. Uma sobremesa intensa, aromática e envolvente — perfeita para quem aprecia sabores tradicionais com personalidade. Conservar refrigerado e consumir em até 6 dias. Atenção: não recomendado para pessoas com sensibilidade a mel, canela ou cravo.",
             price: "19,50",
-            image: "https://i.imgur.com/uRTvpfV.jpeg",
-            hashtags: ["#paodemel", "#docenocopo", "#saboresdocampo", "#lichococandy", "#ifood"]
+            image: "https://i.imgur.com/7r2JUIu.jpeg",
+            hashtags: ["#paodemel", "#docenocopo", "#gourmet, "#lichococandy", "#ifood"]
         },
         {
             name: "Copo Cheesecake",
@@ -49,6 +49,15 @@ const menuData = {
             image: "https://i.imgur.com/yoZLxwI.jpeg",
             hashtags: ["#copodemorango", "#frutasechocolate", "#lichococandy", "#docenocopo", "#ifood"]
         },
+        {
+name: "Copo Torta de Limão", // 🍋 Novo item
+shortDescription: "Massa crocante, creme de limão e chantilly.",
+longDescription: "Uma deliciosa sobremesa montada em camadas: base crocante no fundo, creme de limão leve e equilibrado e, para finalizar, chantilly aveludado. Refrescante e irresistível, perfeita para quem busca uma opção cítrica e cremosa.",
+price: "17,00",
+image: "https://i.imgur.com/hNyfarq.jpeg", // 🔄 Nova imagem
+hashtags: ["#tortadelimao", "#copodafelicidade", "#docenocopo", "#lichococandy", "#ifood"]
+}
+],
     ],
     "Delícias Individuais": [
         {
@@ -56,7 +65,7 @@ const menuData = {
             shortDescription: "Leve e aerada mousse de morango.",
             longDescription: "Nossa mousse de morango é feita com morangos frescos, resultando em uma textura leve e aerada com um sabor intenso da fruta. Uma sobremesa delicada e refrescante.",
             price: "11,00",
-            image: "https://i.imgur.com/AhjZjY6.jpeg",
+            image: "https://i.imgur.com/JHx9fEc.jpeg",
             hashtags: ["#mousse", "#morango", "#leve", "#sobremesa"]
         },
         {
@@ -389,3 +398,4 @@ document.addEventListener('DOMContentLoaded', () => {
     loadCategories();
 
 });
+
