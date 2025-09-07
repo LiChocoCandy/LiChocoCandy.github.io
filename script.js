@@ -22,7 +22,7 @@ const menuData = {
             shortDescription: "Bolo de especiarias, doce de leite cremoso e ganache meio amarga.",
             longDescription: "Bolo de especiarias fofinho, com notas marcantes de canela, cravo e mel, recheado com doce de leite cremoso caseiro e finalizado com ganache de chocolate nobre meio amargo. Uma sobremesa intensa, aromática e envolvente — perfeita para quem aprecia sabores tradicionais com personalidade. Conservar refrigerado e consumir em até 6 dias. Atenção: não recomendado para pessoas com sensibilidade a mel, canela ou cravo.",
             price: "19,50",
-            image: ""https://i.imgur.com/7r2JUIu.jpeg"",
+            image: "https://i.imgur.com/7r2JUIu.jpeg"",
             hashtags: ["#paodemel", "#docenocopo", "#saboresdocampo", "#lichococandy", "#ifood"]
         },
         {
@@ -403,4 +403,5 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('hero').style.display = 'block';
 
     loadCategories();
+
 });
