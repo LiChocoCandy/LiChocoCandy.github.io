@@ -118,6 +118,14 @@ hashtags: ["#tortadelimao", "#copodafelicidade", "#docenocopo", "#lichococandy",
             hashtags: ["#cheesecake", "#frutasvermelhas", "#travessa", "#lichococandy", "#ifood"]
         },
         {
+    name: "Torta de Limão de Travessa",
+    shortDescription: "Mousse de limão, base crocante e muito chantilly",
+    longDescription: "Base de biscoito crocante e amanteigado, mousse aveludado de limão, cobertura leve de chantilly e toque final de raspas de limão fresco. Uma sobremesa clássica, refrescante e equilibrada, perfeita para qualquer ocasião. Serve até 4 pessoas. Conservar refrigerado. Validade: 7 dias",
+    price: "75,00",
+    image: "https://i.imgur.com/0cdvA81.jpeg",
+    hashtags: ["#tortadelimao", "#sobremesacaseira", "#travessa", "#lichococandy", "#ifood", "#sobremesagelada"]
+},
+        {
             name: "Pão de Mel na Travessa",
             shortDescription: "Bolo de especiarias com doce de leite e ganache meio amarga.",
             longDescription: "Camadas de bolo de chocolate com especiarias, doce de leite cremoso e ganache de chocolate meio amargo. Uma releitura do clássico pão de mel em formato de travessa — intenso, cremoso e envolvente. Montado no momento do pedido, com ingredientes frescos e massa sempre úmida. Serve até 5 pessoas. Conservar refrigerado. Validade: até 7 dias.",
@@ -405,4 +413,5 @@ document.addEventListener('DOMContentLoaded', () => {
     loadCategories();
 
 });
+
 
