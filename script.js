@@ -57,6 +57,22 @@ price: "17,00",
 image: "https://i.imgur.com/hNyfarq.jpeg", // 🔄 Nova imagem
 hashtags: ["#tortadelimao", "#copodafelicidade", "#docenocopo", "#lichococandy", "#ifood"]
 }
+      {
+    name: "Paraíso de Maracujá",
+    shortDescription: "Mousse de maracujá, brigadeiro branco e chantilly com redução de maracujá.",
+    longDescription: "Mousse de maracujá feita com fruta de verdade, brigadeiro branco de maracujá e finalização de chantilly fresco com redução de maracujá. Uma sobremesa refrescante, equilibrada e irresistível, perfeita para se deliciar sozinho. Serve 1 pessoa. Conservar refrigerado. Validade: até 5 dias.",
+    price: "20,00",
+    image: "https://i.imgur.com/1tW4Zg1.jpeg",
+    hashtags: ["#maracuja", "#copodafelicidade", "#sobremesacaseira", "#lichococandy", "#ifood", "#sobremesafresca"]
+}
+  {
+    name: "Tentação de Prestígio",
+    shortDescription: "Massa de chocolate molhadinha, recheio de Prestígio e ganache de chocolate meio amargo.",
+    longDescription: "Massa de chocolate intensa e molhadinha, recheada com o autêntico Prestígio, igualzinho ao do bombom, e finalizada com uma ganache de chocolate meio amargo nobre. Uma sobremesa irresistível para se deliciar sozinho. Serve 1 pessoa. Conservar refrigerado. Validade: até 48 horas.",
+    price: "25,00",
+    image: "https://i.imgur.com/GrxOivJ.jpeg",
+    hashtags: ["#prestigio", "#chocolate", "#copodafelicidade", "#sobremesacaseira", "#lichococandy", "#ifood"]
+}
     ],
     "Delícias Individuais": [
         {
@@ -157,6 +173,22 @@ hashtags: ["#tortadelimao", "#copodafelicidade", "#docenocopo", "#lichococandy",
             image: "https://i.imgur.com/qaXpB87.jpeg",
             hashtags: ["#truffe", "#travessa", "#sobremesagourmet", "#lichococandy", "#ifood"]
         }
+        {
+    name: "Travessa Tentação de Prestígio",
+    shortDescription: "Massa de chocolate molhadinha, recheio de Prestígio e ganache de chocolate meio amargo.",
+    longDescription: "Massa de chocolate intensa e molhadinha, recheada com o autêntico Prestígio, igualzinho ao do bombom, e finalizada com uma ganache de chocolate meio amargo nobre. Uma sobremesa irresistível, perfeita para chocólatras de plantão. Serve até 4 pessoas. Conservar refrigerado. Validade: até 5 dias na geladeira.",
+    price: "90,00",
+    image: "https://i.imgur.com/y0K9wK1.jpeg",
+    hashtags: ["#prestigio", "#chocolate", "#travessa", "#sobremesacaseira", "#lichococandy", "#ifood"]
+}
+{
+    name: "Travessa Paraíso de Maracujá",
+    shortDescription: "Massa de baunilha molhadinha, mousse de maracujá, brigadeiro branco e chantilly com redução de maracujá.",
+    longDescription: "Massa de baunilha super aromática e molhadinha, com uma generosa camada de mousse de maracujá feita com fruta de verdade, brigadeiro branco de maracujá e finalização de chantilly fresco com redução de maracujá. Uma sobremesa refrescante, equilibrada e irresistível. Serve até 4 pessoas. Conservar refrigerado. Validade: até 5 dias.",
+    price: "85,00",
+    image: "https://i.imgur.com/zoKays1.jpeg",
+    hashtags: ["#maracuja", "#travessa", "#sobremesacaseira", "#lichococandy", "#ifood", "#sobremesafresca"]
+}
     ],
     "Mini Bolos": [
         {
@@ -413,5 +445,6 @@ document.addEventListener('DOMContentLoaded', () => {
     loadCategories();
 
 });
+
 
 
