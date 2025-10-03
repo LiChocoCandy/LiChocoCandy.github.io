@@ -57,14 +57,13 @@ price: "17,00",
 image: "https://i.imgur.com/hNyfarq.jpeg", // 🔄 Nova imagem
 hashtags: ["#tortadelimao", "#copodafelicidade", "#docenocopo", "#lichococandy", "#ifood"]
 }
-      {
-    name: "Paraíso de Maracujá",
+  name: "Paraíso de Maracujá",
     shortDescription: "Mousse de maracujá, brigadeiro branco e chantilly com redução de maracujá.",
     longDescription: "Mousse de maracujá feita com fruta de verdade, brigadeiro branco de maracujá e finalização de chantilly fresco com redução de maracujá. Uma sobremesa refrescante, equilibrada e irresistível, perfeita para se deliciar sozinho. Serve 1 pessoa. Conservar refrigerado. Validade: até 5 dias.",
     price: "20,00",
     image: "https://i.imgur.com/1tW4Zg1.jpeg",
     hashtags: ["#maracuja", "#copodafelicidade", "#sobremesacaseira", "#lichococandy", "#ifood", "#sobremesafresca"]
-}
+  },
   {
     name: "Tentação de Prestígio",
     shortDescription: "Massa de chocolate molhadinha, recheio de Prestígio e ganache de chocolate meio amargo.",
@@ -72,8 +71,8 @@ hashtags: ["#tortadelimao", "#copodafelicidade", "#docenocopo", "#lichococandy",
     price: "25,00",
     image: "https://i.imgur.com/GrxOivJ.jpeg",
     hashtags: ["#prestigio", "#chocolate", "#copodafelicidade", "#sobremesacaseira", "#lichococandy", "#ifood"]
-}
-    ],
+  }
+],
     "Delícias Individuais": [
         {
             name: "Mousse de Morango",
@@ -445,6 +444,7 @@ document.addEventListener('DOMContentLoaded', () => {
     loadCategories();
 
 });
+
 
 
 
