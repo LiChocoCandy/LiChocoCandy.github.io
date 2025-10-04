@@ -56,7 +56,7 @@ longDescription: "Uma deliciosa sobremesa montada em camadas: base crocante no f
 price: "17,00",
 image: "https://i.imgur.com/hNyfarq.jpeg", // 🔄 Nova imagem
 hashtags: ["#tortadelimao", "#copodafelicidade", "#docenocopo", "#lichococandy", "#ifood"]
-}
+},
    {
     "name": "Paraíso de Maracujá",
     "shortDescription": "Mousse de maracujá, brigadeiro branco e chantilly com redução de maracujá.",
@@ -172,7 +172,7 @@ hashtags: ["#tortadelimao", "#copodafelicidade", "#docenocopo", "#lichococandy",
             price: "80,00",
             image: "https://i.imgur.com/qaXpB87.jpeg",
             hashtags: ["#truffe", "#travessa", "#sobremesagourmet", "#lichococandy", "#ifood"]
-        }
+        },
         {
     name: "Travessa Tentação de Prestígio",
     shortDescription: "Massa de chocolate molhadinha, recheio de Prestígio e ganache de chocolate meio amargo.",
@@ -180,7 +180,7 @@ hashtags: ["#tortadelimao", "#copodafelicidade", "#docenocopo", "#lichococandy",
     price: "90,00",
     image: "https://i.imgur.com/y0K9wK1.jpeg",
     hashtags: ["#prestigio", "#chocolate", "#travessa", "#sobremesacaseira", "#lichococandy", "#ifood"]
-}
+},
 {
     name: "Travessa Paraíso de Maracujá",
     shortDescription: "Massa de baunilha molhadinha, mousse de maracujá, brigadeiro branco e chantilly com redução de maracujá.",
@@ -188,7 +188,7 @@ hashtags: ["#tortadelimao", "#copodafelicidade", "#docenocopo", "#lichococandy",
     price: "85,00",
     image: "https://i.imgur.com/zoKays1.jpeg",
     hashtags: ["#maracuja", "#travessa", "#sobremesacaseira", "#lichococandy", "#ifood", "#sobremesafresca"]
-}
+},
     ],
     "Mini Bolos": [
         {
@@ -445,6 +445,7 @@ document.addEventListener('DOMContentLoaded', () => {
     loadCategories();
 
 });
+
 
 
 
